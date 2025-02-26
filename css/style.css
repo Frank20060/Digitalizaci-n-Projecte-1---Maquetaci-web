@@ -1,0 +1,44 @@
+body{
+
+    display: flex;
+    flex-direction: row;
+    font-family: "Nunito Sans";
+
+}
+header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aqua;
+    width: 100%;
+
+}
+.header-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    height: 35px;
+    gap: 20px;
+}
+.Cuenta{
+    display: flex;
+    flex-direction: column;
+}
+.Cuenta p {
+    margin: 0; /* Elimina el margen */
+    padding: 0; /* Elimina el padding */
+    
+}
+.Name{
+
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.TipeAcount{
+
+    font-size: 12px;
+    font-weight: 600;
+
+}
