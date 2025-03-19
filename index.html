@@ -10,11 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <nav>
+    <div class="menu">
+        <div class="logo">
             <img src="img/Logo.svg" alt="logo" class="logonav">
-        </nav>
-        <ul>
+        </div>
+        <ul class="bottomborder">
             <li><a href="#">Dashboard</a></li>
             <li><a href="#">Products</a></li>
             <li><a href="#">Favorites</a></li>
@@ -22,7 +22,7 @@
             <li><a href="#">Order Lists</a></li>
             <li><a href="#">Product Stock</a></li>
         </ul>
-        <ul>
+        <ul class="bottomborder">
             <h2>PAGES</h2>
             <li><a href="#">Pricing</a></li>
             <li><a href="#">Calender</a></li>
@@ -38,9 +38,9 @@
             <li><a href="#">Logout</a></li>
         </ul>
     </div>
-    <div>
+    <div class="main">
         <header>
-            <div>
+            <div class="header-left">
                 <img src="img/menutresrayas.svg" alt="tres rayas menu">
                 <input type="text" placeholder="Search">
             </div>
@@ -60,12 +60,99 @@
                 <img src="img/IconoFlechitaAbajo.svg" alt="Boton con una flechita Abajo">
             </div>
         </header>
-        <body>
-            
-        </body>
-        <footer>
+        <div class="content">
+            <h1>Dashboard</h1>
+            <div class="cards">
+                <div class="tusers">
+                    <div>
+                        <div >
+                            <p>Total Users</p>
+                            <p class="numcards">40,689</p>
+                        </div>
+                        <img src="img/Icontusers.svg" alt="Icono de usuarios">
+                    </div>
+                    <p><strong>8.5% </strong>Up from yesterday</p>
+                    
+                </div>
+                <div class="torder">
+                    <div>
+                        <div >
+                            <p>Total Order</p>
+                            <p class="numcards">10293</p>
+                        </div>
+                        <img src="img/iconotorden.svg" alt="Icono de usuarios">
+                    </div>
+                    <p><strong>1.3% </strong>Up from past week</p>
+                </div>
+                <div class="tsales">
+                    <div>
+                        <div >
+                            <p>Total Sales</p>
+                            <p class="numcards">$89,000</p>
+                        </div>
+                        <img src="img/iconotsales.svg" alt="Icono de usuarios">
+                    </div>
+                    <p><strong>4.3%</strong> Down from yesterday</p>
+                </div>
+                <div class="tpending">
+                    <div>
+                        <div >
+                            <p>Total Pending</p>
+                            <p class="numcards">2040</p>
+                        </div>
+                        <img src="img/iconotpending.svg" alt="Icono de usuarios">
+                    </div>
+                    <p><strong>1.8% </strong>Up from yesterday</p>
+                </div>
+            </div>
+            <div class="grafica">
+                <img src="img/grafica1.svg" alt="Grafica de ventas">
+
+            </div>
+            <div class="tabla">
+                <h2>Deals Details</h2>
+                <div class="centrar">
+                    <table>
+                    
+                        <tr>
+                            <th>Product Name</th>
+                            <th>Location</th>
+                            <th>Date - Time</th>
+                            <th>Piece</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                        </tr>
+                        <tr>
+                            <td><img src="img/applewatch.svg" alt="Reloj appel">Apple Watch</td>
+                            <td>6096 Marjolaine Landing</td>
+                            <td>12.09.2019 - 12.53 PM</td>
+                            <td>423</td>
+                            <td>$34,295</td>
+                            <td><button>Delivered</button></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/applewatch.svg" alt="Reloj appel">Apple Watch</td>
+                            <td>6096 Marjolaine Landing</td>
+                            <td>12.09.2019 - 12.53 PM</td>
+                            <td>423</td>
+                            <td>$34,295</td>
+                            <td><button>Delivered</button></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/applewatch.svg" alt="Reloj appel">Apple Watch</td>
+                            <td>6096 Marjolaine Landing</td>
+                            <td>12.09.2019 - 12.53 PM</td>
+                            <td>423</td>
+                            <td>$34,295</td>
+                            <td><button>Delivered</button></td>
+                        </tr>
     
-        </footer>
+                    </table>
+                </div>
+                
+
+            </div>
+        </div>
     </div>
 </body>
 </html>
