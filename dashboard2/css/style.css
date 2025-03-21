@@ -152,6 +152,20 @@ header{
 }
 
 
+/*Grafico*/
+
+.content>img{
+
+    width: 100%;
+    
+    padding: 0px;
+
+
+}
+
+
+/*Cards*/
+
 .cards{
 
     display: flex;
@@ -167,106 +181,100 @@ header{
     background-color: white;
     border: 1px solid transparent;
     border-radius: 10px;
-    width: 100%;
-    height: 150px;
+    width: 360px;
+    height: 350px;;
     padding: 20px;
     display: flex;
     flex-direction: column;
 }
+.cards img{
 
-.cards>div>div{
+    width: 300px;
+
+    
+
+}
+.cards p{
+
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    margin: 0;
+    padding: 0;
+
+}
+.consumers{
+
     display: flex;
-    height: 100px;
-    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+}
+.consumers>div{
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 70px;
 }
-
-.numcards{
-
-    font-size: 30px;
-    margin: none;
-    padding: none;
+.consumers img{
+    padding: 10px;
+    width: 180px;
 
 }
-strong{
+.consumers ul,li{
 
-    color: #00B69B;
-}
-.tsales strong{
-
-    color: #F93C65;
-}
-
-
-/*Grafica*/
-.grafica{
-    justify-content: center;
-    width: 1600px;
     margin: 0px;
-}
+    padding: 0px;
 
-.grafica img{
-
-    width: 1600px;
 
 }
+.repeatedconsumers li::marker {
+    color: #C0D2F0;
+}
+.newconsumers li::marker {
+    color: #4880FF; 
+}
 
 
-/*Tabla*/
+.product{
 
-.tabla{
-
-    background-color: white;
-    border: 1px solid transparent;
-    border-radius: 10px;
-    width: 1560px;
-    margin: 40px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+
+}
+.product img{
+
+    width: 50px;
+
+}
+.product>div{
+
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 260px;
+    align-items: center;
+    
+
+}
+.price{
+
+    color: #4880FF;
+}
+
+
+.sales{
+
+    gap: 10px;
+    
+
+}
+.sales img{
+
     padding: 20px;
-
-}
-
-.tabla table{
-    width: 1560px;
-    border-collapse: collapse;
-    border: 1px solid #0000005e;
-    border-radius: 10px;
-
-}
-.tabla table th, td{
-    width: 10px;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #0000005e;
-    align-items: center;
     justify-content: center;
-
-
-
-}
-.tabla table th{
-    background-color: #d0dfdf62;
-
-
-}
-.centrar{
-
-    justify-content: center;
-    align-items: center;
-
-}
-
-.tabla button{
-
-    background-color: #00B69B;
-    color: white;
-    border: transparent;
-    border-radius: 13.5px;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
 
 }

@@ -163,6 +163,15 @@ header{
     
     
 }
+.cards p{
+
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    margin: 0;
+    padding: 0;
+
+}
 .cards>div{
     background-color: white;
     border: 1px solid transparent;
