@@ -1,0 +1,235 @@
+body{
+
+    display: flex;
+    flex-direction: row;
+    font-family: "Nunito Sans";
+    background-color: white;    
+    margin: 0; 
+    padding: 0;
+
+
+
+}
+
+/*-----------MENU izquierda---------*/
+.menu{
+    position: fixed;
+    height: 100vh;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    height: 50px;
+
+
+}
+.bottomborder{
+
+    border-bottom: 1px solid #0000005e;
+
+}
+
+.menu li{
+
+    list-style: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: black;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+
+}
+.menu li:hover , .menu li:hover>a{
+    background-color: #4880FF;
+    color: white;
+}
+.menu li>a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*------MAIN-------*/
+.main{
+
+    padding-left: 230px;
+    width: 100%;
+    
+
+
+}
+
+
+
+
+/*header*/
+header{
+
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    position: fixed;
+    
+
+
+}
+.header-left{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 35px;
+    align-items: center;
+
+}
+.header-left img{
+    width: 25px;
+    height: 25px;
+}
+.header-left input{
+    width: 400px;
+    height: 30px;
+    border-radius: 40px;
+    border: 1px solid #0000005e;
+    padding-left: 10px;
+}
+
+.header-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    height: 35px;
+    gap: 40px;
+}
+.Cuenta{
+    display: flex;
+    flex-direction: column;
+}
+.Cuenta p {
+    margin: 0; /* Elimina el margen */
+    padding: 0; /* Elimina el padding */
+    
+}
+.Name{
+
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.TipeAcount{
+
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+
+/*Main body*/
+
+
+.content{
+    padding-top: 60px;
+    width: 100%;
+    height: 100%;
+    background-color: #d0dfdf62;
+    
+
+}
+.content h1{
+    padding: 20px;
+}
+
+
+
+/*Comienza el contenido*/
+
+
+
+.fazul{
+    margin: 50px;
+    background-color: #4880FF;
+    border-radius: 14px;
+    padding: 30px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+
+}
+.azulprincipal{
+
+    justify-content: start;
+    text-align: start;
+    padding-left: 80px;
+    height: auto;
+
+}
+
+.azulprincipal h1{
+    
+    margin: 0;
+    padding: 0;
+    width: 370px;
+    font-weight: 900;
+
+}
+
+/*boton del rectangulo azul*/
+
+.azulprincipal button{
+
+    background-color: #FF8743;
+    color: white;
+    border: none;
+    border-radius: 11px;
+    margin-top: 10px;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+/*Imagens de las flechitas de el div azul*/
+
+
+.imgflecha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.imgflecha img{
+    
+    color: white;
+    background-color: rgba(255, 255, 255, 0.822);
+    border-radius: 30px;
+
+}
+.derecha {
+    display: flex; /* Asegura que el contenedor use flexbox */
+    margin-left: auto; /* Empuja el contenido hacia la derecha */
+}
+
+
+
+
+/*Cards de los productos*/
+
+
+.cardsproductos>div{
+    background-color: white;
+    width: 400px;
+}
