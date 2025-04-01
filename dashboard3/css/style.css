@@ -52,6 +52,10 @@ body{
     background-color: #4880FF;
     color: white;
 }
+.seleccionado, .seleccionado a{
+    background-color: #4880FF;
+    color: white;
+}
 .menu li>a{
     text-decoration: none;
     color: black;
@@ -231,5 +235,68 @@ header{
 
 .cardsproductos>div{
     background-color: white;
-    width: 400px;
+    width: 450px;
+    border-radius: 20px;
 }
+
+.cardsproductos{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 50px;
+    justify-content: center;
+    
+}
+
+.fotoyflechitas{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+.imgprincipal{
+    width: 350px;
+
+
+}
+
+.debajoimagen{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.debajoimagen button{
+
+    background-color: #E2EAF8;
+    border: none;
+    border-radius: 12px;
+    opacity: 0.7;
+    padding: 10px;
+
+}
+.detallesproductos{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.detallesproductos img, .detallesproductos p{
+
+    padding: 0px;
+    margin: 0px;
+
+}
+.prize{
+
+    color: #4880FF;
+
+}
+
