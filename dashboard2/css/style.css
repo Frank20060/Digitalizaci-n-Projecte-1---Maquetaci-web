@@ -48,7 +48,7 @@ body{
     width: 100px;
 
 }
-.menu li:hover{
+.menu li:hover, .menu li:hover a{
     background-color: #4880FF;
     color: white;
 }

@@ -56,6 +56,10 @@ body{
     background-color: #4880FF;
     color: white;
 }
+ul li.seleccionado a {  /*PA que el li que este seleccionado tenga el a en color blanco*/
+    color: white; 
+    text-decoration: none;
+}
 .menu li>a{
     text-decoration: none;
     color: black;
